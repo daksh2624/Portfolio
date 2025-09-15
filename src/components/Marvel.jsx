@@ -1,14 +1,24 @@
+import ironImg from '../assets/Avengers/iron.jpg';
+import spidyImg from '../assets/Avengers/spidy.jpg';
+import captainImg from '../assets/Avengers/Captian.jpg';
+import thorImg from '../assets/Avengers/Thor.jpg';
+import hulkImg from '../assets/Avengers/Hulk.jpg';
+import blackImg from '../assets/Avengers/Black.jpg';
+import hawkeyeImg from '../assets/Avengers/Hawkeye.jpg';
+import doctorImg from '../assets/Avengers/Doctor.jpg';
+import blackpantherImg from '../assets/Avengers/blackpanther.jpg';
+
 const Marvel = () => {
   const marvelCharacters = [
-    { id: 1, name: "Iron Man", description: "Genius billionaire philanthropist", image: "/Avengers/iron.jpg", color: "white" },
-    { id: 2, name: "Spider-Man", description: "Friendly neighborhood hero", image: "/Avengers/spidy.jpg", color: "YOUR_SPIDER_MAN_COLOR" },
-    { id: 3, name: "Captain America", description: "The First Avenger", image: "/Avengers/Captian.jpg", color: "YOUR_CAPTAIN_AMERICA_COLOR" },
-    { id: 4, name: "Thor", description: "God of Thunder", image: "/Avengers/Thor.jpg", color: "YOUR_THOR_COLOR" },
-    { id: 5, name: "Hulk", description: "The incredible green giant", image: "/Avengers/Hulk.jpg", color: "YOUR_HULK_COLOR" },
-    { id: 6, name: "Black Widow", description: "Master spy and assassin", image: "/Avengers/Black.jpg", color: "YOUR_BLACK_WIDOW_COLOR" },
-    { id: 7, name: "Hawkeye", description: "Master archer", image: "/Avengers/Hawkeye.jpg", color: "YOUR_HAWKEYE_COLOR" },
-    { id: 8, name: "Doctor Strange", description: "Master of mystic arts", image: "/Avengers/Doctor.jpg", color: "YOUR_DOCTOR_STRANGE_COLOR" },
-    { id: 9, name: "Black Panther", description: "King of Wakanda", image: "/Avengers/blackpanther.jpg", color: "YOUR_BLACK_PANTHER_COLOR" }
+    { id: 1, name: "Iron Man", description: "Genius billionaire philanthropist", image: ironImg, color: "white" },
+    { id: 2, name: "Spider-Man", description: "Friendly neighborhood hero", image: spidyImg, color: "YOUR_SPIDER_MAN_COLOR" },
+    { id: 3, name: "Captain America", description: "The First Avenger", image: captainImg, color: "YOUR_CAPTAIN_AMERICA_COLOR" },
+    { id: 4, name: "Thor", description: "God of Thunder", image: thorImg, color: "YOUR_THOR_COLOR" },
+    { id: 5, name: "Hulk", description: "The incredible green giant", image: hulkImg, color: "YOUR_HULK_COLOR" },
+    { id: 6, name: "Black Widow", description: "Master spy and assassin", image: blackImg, color: "YOUR_BLACK_WIDOW_COLOR" },
+    { id: 7, name: "Hawkeye", description: "Master archer", image: hawkeyeImg, color: "YOUR_HAWKEYE_COLOR" },
+    { id: 8, name: "Doctor Strange", description: "Master of mystic arts", image: doctorImg, color: "YOUR_DOCTOR_STRANGE_COLOR" },
+    { id: 9, name: "Black Panther", description: "King of Wakanda", image: blackpantherImg, color: "YOUR_BLACK_PANTHER_COLOR" }
   ];
 
   return (

@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 
 const Friends = () => {
   const myFavoriteFriendsCharacters = [
-    { id: 1, name: "Rachel Green", description: "Fashion enthusiast who transformed from spoiled to independent.", image: "./src/assets/friends/rachel.jpg" },
-    { id: 2, name: "Monica Geller", description: "Perfectionist chef with incredible culinary talents.", image: "./src/assets/friends/monica.jpg" },
-    { id: 3, name: "Phoebe Buffay", description: "Quirky musician with mystical beliefs and free spirit.", image: "./src/assets/friends/phoebe.jpg" },
-    { id: 4, name: "Joey Tribbiani", description: "Food-loving actor with legendary appetite for sandwiches.", image: "./src/assets/friends/joey.jpg" },
-    { id: 5, name: "Chandler Bing", description: "Sarcastic master of one-liners and comedy gold.", image: "./src/assets/friends/chandler.jpg" },
-    { id: 6, name: "Ross Geller", description: "Dinosaur-obsessed paleontologist who was on a break.", image: "./src/assets/friends/ross.jpg" }
+    { id: 1, name: "Rachel Green", description: "Fashion enthusiast who transformed from spoiled to independent.", image: "/friends/rachel.jpg" },
+    { id: 2, name: "Monica Geller", description: "Perfectionist chef with incredible culinary talents.", image: "/friends/monica.jpg" },
+    { id: 3, name: "Phoebe Buffay", description: "Quirky musician with mystical beliefs and free spirit.", image: "/friends/phoebe.jpg" },
+    { id: 4, name: "Joey Tribbiani", description: "Food-loving actor with legendary appetite for sandwiches.", image: "/friends/joey.jpg" },
+    { id: 5, name: "Chandler Bing", description: "Sarcastic master of one-liners and comedy gold.", image: "/friends/chandler.jpg" },
+    { id: 6, name: "Ross Geller", description: "Dinosaur-obsessed paleontologist who was on a break.", image: "/friends/ross.jpg" }
   ];
 
   const [activeCharacter, setActiveCharacter] = useState(0);

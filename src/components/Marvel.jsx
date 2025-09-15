@@ -10,7 +10,7 @@ import blackpantherImg from '../assets/Avengers/blackpanther.jpg';
 
 const Marvel = () => {
   const marvelCharacters = [
-    { id: 1, name: "Iron Man", description: "Genius billionaire philanthropist", image: "https://i.pinimg.com/564x/b8/4e/4a/b84e4a0c8b8c8f8e8f8e8f8e8f8e8f8e.jpg", color: "white" },
+    { id: 1, name: "Iron Man", description: "Genius billionaire philanthropist", image: "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=500&h=500&fit=crop", color: "white" },
     { id: 2, name: "Spider-Man", description: "Friendly neighborhood hero", image: spidyImg, color: "YOUR_SPIDER_MAN_COLOR" },
     { id: 3, name: "Captain America", description: "The First Avenger", image: captainImg, color: "YOUR_CAPTAIN_AMERICA_COLOR" },
     { id: 4, name: "Thor", description: "God of Thunder", image: thorImg, color: "YOUR_THOR_COLOR" },

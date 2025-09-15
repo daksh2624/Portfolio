@@ -1,13 +1,20 @@
 import { useState, useEffect } from 'react';
 
+import rachelImg from '../assets/friends/rachel.jpg';
+import monicaImg from '../assets/friends/monica.jpg';
+import phoebeImg from '../assets/friends/phoebe.jpg';
+import joeyImg from '../assets/friends/joey.jpg';
+import chandlerImg from '../assets/friends/chandler.jpg';
+import rossImg from '../assets/friends/ross.jpg';
+
 const Friends = () => {
   const myFavoriteFriendsCharacters = [
-    { id: 1, name: "Rachel Green", description: "Fashion enthusiast who transformed from spoiled to independent.", image: "/friends/rachel.jpg" },
-    { id: 2, name: "Monica Geller", description: "Perfectionist chef with incredible culinary talents.", image: "/friends/monica.jpg" },
-    { id: 3, name: "Phoebe Buffay", description: "Quirky musician with mystical beliefs and free spirit.", image: "/friends/phoebe.jpg" },
-    { id: 4, name: "Joey Tribbiani", description: "Food-loving actor with legendary appetite for sandwiches.", image: "/friends/joey.jpg" },
-    { id: 5, name: "Chandler Bing", description: "Sarcastic master of one-liners and comedy gold.", image: "/friends/chandler.jpg" },
-    { id: 6, name: "Ross Geller", description: "Dinosaur-obsessed paleontologist who was on a break.", image: "/friends/ross.jpg" }
+    { id: 1, name: "Rachel Green", description: "Fashion enthusiast who transformed from spoiled to independent.", image: rachelImg },
+    { id: 2, name: "Monica Geller", description: "Perfectionist chef with incredible culinary talents.", image: monicaImg },
+    { id: 3, name: "Phoebe Buffay", description: "Quirky musician with mystical beliefs and free spirit.", image: phoebeImg },
+    { id: 4, name: "Joey Tribbiani", description: "Food-loving actor with legendary appetite for sandwiches.", image: joeyImg },
+    { id: 5, name: "Chandler Bing", description: "Sarcastic master of one-liners and comedy gold.", image: chandlerImg },
+    { id: 6, name: "Ross Geller", description: "Dinosaur-obsessed paleontologist who was on a break.", image: rossImg }
   ];
 
   const [activeCharacter, setActiveCharacter] = useState(0);

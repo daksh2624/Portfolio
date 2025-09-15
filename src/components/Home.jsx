@@ -1,3 +1,5 @@
+import meImage from '../assets/Picture/Me2.jpg';
+
 const Home = () => {
   return (
     <div id="home" className="min-w-screen flex-shrink-0 bg-cover bg-center" style={{backgroundImage: 'url("your-background-image.jpg")'}}>
@@ -9,7 +11,7 @@ const Home = () => {
         </div>
         <div className="w-1/2 flex items-center justify-center p-16">
           <div className="rounded-full shadow-2xl bg-gray-800 p-4" style={{width: '576px', height: '576px'}}>
-            <div className="w-full h-full rounded-full overflow-hidden" style={{backgroundImage: 'url("/Picture/Me2.jpg")', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+            <div className="w-full h-full rounded-full overflow-hidden" style={{backgroundImage: `url(${meImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
             </div>
           </div>
         </div>

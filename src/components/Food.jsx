@@ -1,14 +1,9 @@
-import pizzaImg from '../assets/food/pizza.jpg';
-import burgerImg from '../assets/food/burger.jpg';
-import sushiImg from '../assets/food/sushi.jpg';
-import pastaImg from '../assets/food/pasta.jpg';
-
 const Food = () => {
   const myFavoriteFoods = [
-    { id: 1, name: "Pizza", description: "Delicious Italian classic with fresh ingredients", image: pizzaImg },
-    { id: 2, name: "Burger", description: "Juicy beef patty with crispy lettuce and tomato", image: burgerImg },
-    { id: 3, name: "Sushi", description: "Fresh Japanese rolls with premium seafood", image: sushiImg },
-    { id: 4, name: "Pasta", description: "Creamy Italian pasta with rich sauce", image: pastaImg }
+    { id: 1, name: "Pizza", description: "Delicious Italian classic with fresh ingredients", image: "./src/assets/food/pizza.jpg" },
+    { id: 2, name: "Burger", description: "Juicy beef patty with crispy lettuce and tomato", image: "./src/assets/food/burger.jpg" },
+    { id: 3, name: "Sushi", description: "Fresh Japanese rolls with premium seafood", image: "./src/assets/food/sushi.jpg" },
+    { id: 4, name: "Pasta", description: "Creamy Italian pasta with rich sauce", image: "./src/assets/food/pasta.jpg" }
   ];
 
   return (

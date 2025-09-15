@@ -1,20 +1,13 @@
 import { useState, useEffect } from 'react';
 
-import rachelImg from '../assets/friends/rachel.jpg';
-import monicaImg from '../assets/friends/monica.jpg';
-import phoebeImg from '../assets/friends/phoebe.jpg';
-import joeyImg from '../assets/friends/joey.jpg';
-import chandlerImg from '../assets/friends/chandler.jpg';
-import rossImg from '../assets/friends/ross.jpg';
-
 const Friends = () => {
   const myFavoriteFriendsCharacters = [
-    { id: 1, name: "Rachel Green", description: "Fashion enthusiast who transformed from spoiled to independent.", image: rachelImg },
-    { id: 2, name: "Monica Geller", description: "Perfectionist chef with incredible culinary talents.", image: monicaImg },
-    { id: 3, name: "Phoebe Buffay", description: "Quirky musician with mystical beliefs and free spirit.", image: phoebeImg },
-    { id: 4, name: "Joey Tribbiani", description: "Food-loving actor with legendary appetite for sandwiches.", image: joeyImg },
-    { id: 5, name: "Chandler Bing", description: "Sarcastic master of one-liners and comedy gold.", image: chandlerImg },
-    { id: 6, name: "Ross Geller", description: "Dinosaur-obsessed paleontologist who was on a break.", image: rossImg }
+    { id: 1, name: "Rachel Green", description: "Fashion enthusiast who transformed from spoiled to independent.", image: "./src/assets/friends/rachel.jpg" },
+    { id: 2, name: "Monica Geller", description: "Perfectionist chef with incredible culinary talents.", image: "./src/assets/friends/monica.jpg" },
+    { id: 3, name: "Phoebe Buffay", description: "Quirky musician with mystical beliefs and free spirit.", image: "./src/assets/friends/phoebe.jpg" },
+    { id: 4, name: "Joey Tribbiani", description: "Food-loving actor with legendary appetite for sandwiches.", image: "./src/assets/friends/joey.jpg" },
+    { id: 5, name: "Chandler Bing", description: "Sarcastic master of one-liners and comedy gold.", image: "./src/assets/friends/chandler.jpg" },
+    { id: 6, name: "Ross Geller", description: "Dinosaur-obsessed paleontologist who was on a break.", image: "./src/assets/friends/ross.jpg" }
   ];
 
   const [activeCharacter, setActiveCharacter] = useState(0);

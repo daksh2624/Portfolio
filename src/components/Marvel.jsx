@@ -1,4 +1,4 @@
-
+import ironImg from '../assets/Avengers/iron.jpg';
 import spidyImg from '../assets/Avengers/spidy.jpg';
 import captainImg from '../assets/Avengers/Captian.jpg';
 import thorImg from '../assets/Avengers/Thor.jpg';
@@ -10,7 +10,7 @@ import blackpantherImg from '../assets/Avengers/blackpanther.jpg';
 
 const Marvel = () => {
   const marvelCharacters = [
-    { id: 1, name: "Iron Man", description: "Genius billionaire philanthropist", image: "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=500&h=500&fit=crop", color: "white" },
+    { id: 1, name: "Iron Man", description: "Genius billionaire philanthropist", image: ironImg, color: "white" },
     { id: 2, name: "Spider-Man", description: "Friendly neighborhood hero", image: spidyImg, color: "YOUR_SPIDER_MAN_COLOR" },
     { id: 3, name: "Captain America", description: "The First Avenger", image: captainImg, color: "YOUR_CAPTAIN_AMERICA_COLOR" },
     { id: 4, name: "Thor", description: "God of Thunder", image: thorImg, color: "YOUR_THOR_COLOR" },
@@ -29,7 +29,6 @@ const Marvel = () => {
             key={character.id}
             className="group relative rounded-lg cursor-pointer transform transition-all duration-500 hover:scale-110 hover:z-10"
           >
-            {/* Default state - just image */}
             <div 
               className="w-full h-full rounded-lg group-hover:hidden transition-all duration-300"
               style={{
@@ -39,9 +38,7 @@ const Marvel = () => {
               }}
             />
             
-            {/* Hover state - vertical card */}
             <div className="hidden group-hover:block absolute top-0 left-0 bg-gray-200 rounded-lg shadow-2xl w-full h-64">
-              {/* Top 3/4 - Image */}
               <div 
                 className="w-full h-48 rounded-t-lg"
                 style={{
@@ -50,8 +47,6 @@ const Marvel = () => {
                   backgroundPosition: 'center'
                 }}
               />
-                        {/* <h1 className="text-6xl font-bold mb-4" style={{fontFamily: 'Roboto Slab, serif'}}>Hi, I'm Daksh 👋</h1> */}
-              {/* Bottom 1/4 - Description */}
               <div 
                 className="w-full h-16 rounded-b-lg p-2 flex flex-col justify-center"
                 style={{ backgroundColor: character.color }}

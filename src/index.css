@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Quicksand:wght@300&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MADType';
+  src: url('./assets/fonts/MADType.woff2') format('woff2'),
+       url('./assets/fonts/MADType.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+.horizontal-scroll {
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
